@@ -1,0 +1,33 @@
+*{
+    color: white;
+}
+body{
+    height: 100vh;
+    background: url(xx2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 700px;
+    box-shadow: 10px 5px 5px rgba(173, 216, 230, 0.5);
+}
+td,th{
+    border: solid 3px white;
+    
+}
+table{
+    border-collapse: collapse;
+}
+p{
+    word-spacing: .7px;
+}

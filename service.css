@@ -1,0 +1,42 @@
+*{
+  color: white;
+  letter-spacing: .7px;
+  word-spacing: 2px;
+  font-family: "Tajawal","Inter",sans-serif;
+}
+body{
+  background: url(xx2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.content{
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  width: 800px;
+  box-shadow: 10px 5px 5px rgba(173, 216, 230, 0.5);
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  margin: 11px 5px;
+  letter-spacing: 2px;
+}
+
+p,li {
+  font-family: "Inter", sans-serif;
+  margin: 11px 7px;
+  word-spacing: .7px;
+}
+a{
+  color:#62758c;
+}
+a:hover{
+  color: white;
+}
+header ul li{
+  list-style: none;
+}

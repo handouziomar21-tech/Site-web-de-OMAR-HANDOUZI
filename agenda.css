@@ -1,0 +1,35 @@
+*{
+  color: white;
+  letter-spacing: .7px;
+  word-spacing: 2px;
+  font-family: "Tajawal","Inter",sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: solid 2px white;
+}
+*{
+    color: white;
+    padding: 5px 5px;
+}
+body{
+    height: 100vh;
+    background: url(xx2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    width: 760px;
+    box-shadow: 12px 12px 2px 1px rgba(173, 216, 230, 0.5);
+}
